@@ -119,12 +119,11 @@ footer {
   }
 
   img.picture {
-    width: 8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .description {
-    text-align: justify;
+    text-align: left;
     max-width: 80%;
   }
 }
