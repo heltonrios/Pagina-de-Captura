@@ -66,7 +66,7 @@ select {
   -moz-appearance: none;
   appearance: none;
 
-  background-image: url(/images/arrow.jpg);
+  background-image: url(./images/arrow.jpg);
   background-repeat: no-repeat;
   background-position: calc(100% - 10px) center;
 }
@@ -98,6 +98,8 @@ footer {
   font-size: 24px;
 }
 
+/* ============== RESPONSIVIDADE ====================== */
+
 @media (max-width: 600px) {
   .formContainer {
     margin: 1rem;
@@ -110,7 +112,9 @@ footer {
 
   footer {
     display: flex;
+
     align-items: center;
+    flex-direction: column;
     justify-content: space-evenly;
   }
 
@@ -121,5 +125,6 @@ footer {
 
   .description {
     text-align: justify;
+    max-width: 80%;
   }
 }
